@@ -1,0 +1,13 @@
+.scale-screen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scale-screen-container {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 0;
+  transition: all 0.3s;
+}
